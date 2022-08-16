@@ -10,7 +10,7 @@
       href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="styles.css">
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <title>Where work happens | Slack</title>
@@ -18,16 +18,18 @@
 
   <body>
     <nav>
+      <div class="head">
       <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+      <ul class="list1">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
         <li>Your Workspaces</li>
       </ul>
+    </div>
     </nav>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
+     <!-- <img src="./images/home_talking.png" alt="home_work_happening" />-->
       <h1>Where Work Happens</h1>
       <p>
         When your team needs to kick off a project, hire a new employee, deploy
@@ -35,34 +37,44 @@
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
+      <button id="get-started" type="button" name="button">GET STARTED</button>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+      <img src="./images/home_talking.png" alt="home_work_happening" />
     </header>
     <main>
-      <div>
+      <div class="div2">
         <h2>You're in good company</h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
+        <button id="disc">DISCOVER WHY</button>
+        <hr></hr>
         <img src="./images/airbnb-logo.png" alt="" />
+        <hr></hr>
         <img src="./images/capital-one-logo.png" alt="" />
+        <hr></hr>
         <img src="./images/harvard-logo.png" alt="" />
+        <hr></hr>
         <img src="./images/los-angeles-times-logo.png" alt="" />
+        <hr></hr>
         <img src="./images/oracle-logo.png" alt="" />
+        <hr></hr>
         <img src="./images/ticketmaster-logo.png" alt="" />
+        <hr></hr>
+
       </div>
-      <div>
+      <div class="div3">
         <p>Try it for free</p>
         <p>Already using Slack? <a href="">Sign in</a></p>
-        <button type="button" name="button">GET STARTED</button>
+        <button id="get" type="button" name="button">GET STARTED</button>
       </div>
     </main>
     <footer>
-      <div>
+      <div class="order">
         <img src="./images/iso-slack.png" alt="" />
-        <ul>
+        <div class="ul-1">
+        <ul class="info">
           <li>COMPANY</li>
           <li>About Us</li>
           <li>Careers</li>
@@ -70,7 +82,7 @@
           <li>Press</li>
           <li>Brand Guidelines</li>
         </ul>
-        <ul>
+        <ul class="info">
           <li>PRODUCT</li>
           <li>Why Slack?</li>
           <li>Enterprise</li>
@@ -78,7 +90,9 @@
           <li>Pricing</li>
           <li>Security</li>
         </ul>
-        <ul>
+      </div>
+      <div class="ul-2">
+        <ul class="info">
           <li>RESOURCES</li>
           <li>Download</li>
           <li>Help Center</li>
@@ -87,16 +101,17 @@
           <li>App Directory</li>
           <li>API</li>
         </ul>
-        <ul>
+        <ul class="info">
           <li>EXTRAS</li>
           <li>Podcast</li>
           <li>Slack Shop</li>
           <li>Slack at Work</li>
           <li>Slack Fund</li>
         </ul>
+        </div>
       </div>
       <div>
-        <ul>
+        <ul class="info">
           <li>Status</li>
           <li>Privacy & Terms</li>
           <li>Contact Us</li>
